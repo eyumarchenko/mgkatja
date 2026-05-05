@@ -143,7 +143,7 @@ export default function Home() {
               <a className={styles.heroLink} href="mailto:eyumarchenko@gmail.com">Email</a>
               <a className={styles.heroLink} href="https://github.com/eyumarchenko" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a className={styles.heroLink} href="https://www.linkedin.com/in/eyumarch/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a className={styles.heroLink} href="/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+              <a className={styles.heroLink} href="https://canva.link/pdqzv9p268q5n0z" target="_blank" rel="noopener noreferrer">CV</a>
             </div>
           </div>
         </section>
