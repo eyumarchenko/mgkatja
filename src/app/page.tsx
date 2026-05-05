@@ -57,6 +57,16 @@ const projects = [
 ];
 
 const publications = [
+    {
+    title: "Storybook: A Practical Guide to Your Design System",
+    venue: "HelsinkiJS, 2026",
+    abstract:
+      "This presentation shows how Storybook can move beyond being just plain documentation and become a hands-on guide.",
+    links: [
+      { label: "Slides", href: "https://canva.link/i9c8gmsxpxokf8q" },
+      { label: "Cheatsheet", href: "https://canva.link/4fm6h1megcew0aj" },
+    ],
+  },
   {
     title: "CoColor: Interactive exploration of color designs",
     venue: "Proceedings of the 28th International Conference on Intelligent User Interfaces, 2023",
@@ -190,7 +200,7 @@ export default function Home() {
         {/* Publications */}
         <section id="publications" className={styles.section}>
           <div className={styles.container}>
-            <p className={styles.sectionLabel}>Publications</p>
+            <p className={styles.sectionLabel}>Publications & Talks</p>
             <div className={styles.pubList}>
               {publications.map((pub) => (
                 <div key={pub.title} className={styles.pubItem}>
