@@ -306,8 +306,20 @@
 
 /* ── Mobile ──────────────────────────────────── */
 @media (max-width: 480px) {
+  .navName {
+    display: none;
+  }
+
+  .navInner {
+    justify-content: center;
+  }
+
   .navLinks {
-    gap: 18px;
+    gap: 20px;
+  }
+
+  .navLinks a {
+    font-size: 13px;
   }
 
   .section {
